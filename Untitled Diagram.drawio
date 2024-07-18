@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T06:21:52.171Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="M_ypq-Kvqy1_ixpQmklZ" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-18T01:55:11.642Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="pADJxeeW7xPKsfV-sdQL" version="24.6.5" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Bringing Material">
     <mxGraphModel dx="312" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,6 +37,34 @@
         </mxCell>
         <mxCell id="j4MQUpckWWwJSChoBjUS-10" value="Stock Entry" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="260" y="320" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iisi42H3gGJU0Dt9Cba6" name="High Level">
+    <mxGraphModel dx="982" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DXJguhVjSem7Nqa23MWj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DXJguhVjSem7Nqa23MWj-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DXJguhVjSem7Nqa23MWj-2" value="&lt;div&gt;Customer Onboard&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DXJguhVjSem7Nqa23MWj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DXJguhVjSem7Nqa23MWj-5" target="DXJguhVjSem7Nqa23MWj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DXJguhVjSem7Nqa23MWj-5" value="&lt;div&gt;Bill of Services&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DXJguhVjSem7Nqa23MWj-7" value="&lt;div&gt;Service Items&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DXJguhVjSem7Nqa23MWj-8" value="Work Order" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
